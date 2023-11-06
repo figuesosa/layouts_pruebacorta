@@ -27,7 +27,6 @@ class OpenHouseItem extends StatelessWidget {
       children: [
         Text(schedule),
         Text(date),
-        // Agrega una flecha para seleccionar si es necesario
       ],
     );
   }
