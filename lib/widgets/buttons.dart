@@ -10,14 +10,12 @@ class Buttons extends StatelessWidget {
       children: [
         ElevatedButton.icon(
           onPressed: () {
-            // Acción al hacer clic en "View Map"
           },
           icon: Icon(Icons.map),
           label: Text("View Map"),
         ),
         ElevatedButton.icon(
           onPressed: () {
-            // Acción al hacer clic en "10 minutes away"
           },
           icon: Icon(Icons.directions_car),
           label: const Text("10 minutes away"),
