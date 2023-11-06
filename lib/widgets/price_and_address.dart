@@ -5,7 +5,6 @@ class PriceAndAddress extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    // Aquí defines la apariencia y el contenido de la sección de precio y dirección
     return const Column(
       children: [
         Text("Precio: \$599,000"),
