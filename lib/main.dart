@@ -1,17 +1,19 @@
-// ignore_for_file: use_key_in_widget_constructors
-
 import 'package:flutter/material.dart';
-import 'package:layouts_pruebacorta/widgets/homescreen.dart';
+import 'package:stack_app/stack.dart';
 
 void main() {
-  runApp(MyApp());
+  runApp(const MyApp());
 }
 
 class MyApp extends StatelessWidget {
+  const MyApp({super.key});
+
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
-      home: HomeScreen(),
+    return const MaterialApp(
+      debugShowCheckedModeBanner: false,
+      title: "Layout",
+      home: StackHome(),
     );
   }
 }
