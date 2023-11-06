@@ -36,7 +36,7 @@ class HomeScreen extends StatelessWidget {
 
   Widget buildBody() {
     final imageUrl =
-        'https://ap.rdcpix.com/46888d0e650316924f7b749fa88c0fa6l-m3956528577od-w1024_h768_x2.webp'; // Reemplazar con la URL de la imagen que desees mostrar
+        'https://ap.rdcpix.com/46888d0e650316924f7b749fa88c0fa6l-m3956528577od-w1024_h768_x2.webp'; 
     return SingleChildScrollView(
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start, // Alineación izquierda
