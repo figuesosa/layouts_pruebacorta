@@ -1,3 +1,3 @@
 # layouts_pruebacorta
 
-A new Flutter project.
+Se crea la aplicacion de realtors.com
