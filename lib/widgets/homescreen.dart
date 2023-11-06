@@ -39,20 +39,20 @@ class HomeScreen extends StatelessWidget {
         'https://ap.rdcpix.com/46888d0e650316924f7b749fa88c0fa6l-m3956528577od-w1024_h768_x2.webp'; 
     return SingleChildScrollView(
       child: Column(
-        crossAxisAlignment: CrossAxisAlignment.start, // Alineación izquierda
+        crossAxisAlignment: CrossAxisAlignment.start, 
         children: [
           HouseImage(imageUrl),
-          SizedBox(height: 16), // Agregar espaciado entre widgets
+          SizedBox(height: 16), 
           PriceAndAddress(),
-          SizedBox(height: 16), // Agregar espaciado entre widgets
+          SizedBox(height: 16), 
           ImageActions(),
-          SizedBox(height: 16), // Agregar espaciado entre widgets
+          SizedBox(height: 16), 
           PropertyInfo(),
-          SizedBox(height: 16), // Agregar espaciado entre widgets
+          SizedBox(height: 16), 
           Buttons(),
-          SizedBox(height: 16), // Agregar espaciado entre widgets
+          SizedBox(height: 16), 
           OpenHouses(),
-          SizedBox(height: 16), // Agregar espaciado entre widgets
+          SizedBox(height: 16), 
           ContactButton(),
         ],
       ),
